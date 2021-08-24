@@ -5,18 +5,18 @@
     "main.js.map": "/browserslist-app-tao/static/js/main.b80901f9.chunk.js.map",
     "runtime-main.js": "/browserslist-app-tao/static/js/runtime-main.935a40c0.js",
     "runtime-main.js.map": "/browserslist-app-tao/static/js/runtime-main.935a40c0.js.map",
-    "static/js/2.81866d8b.chunk.js": "/browserslist-app-tao/static/js/2.81866d8b.chunk.js",
-    "static/js/2.81866d8b.chunk.js.map": "/browserslist-app-tao/static/js/2.81866d8b.chunk.js.map",
+    "static/js/2.53bf301a.chunk.js": "/browserslist-app-tao/static/js/2.53bf301a.chunk.js",
+    "static/js/2.53bf301a.chunk.js.map": "/browserslist-app-tao/static/js/2.53bf301a.chunk.js.map",
     "static/js/3.f8df396b.chunk.js": "/browserslist-app-tao/static/js/3.f8df396b.chunk.js",
     "static/js/3.f8df396b.chunk.js.map": "/browserslist-app-tao/static/js/3.f8df396b.chunk.js.map",
     "index.html": "/browserslist-app-tao/index.html",
     "static/css/main.780f5383.chunk.css.map": "/browserslist-app-tao/static/css/main.780f5383.chunk.css.map",
-    "static/js/2.81866d8b.chunk.js.LICENSE.txt": "/browserslist-app-tao/static/js/2.81866d8b.chunk.js.LICENSE.txt",
+    "static/js/2.53bf301a.chunk.js.LICENSE.txt": "/browserslist-app-tao/static/js/2.53bf301a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/browserslist-app-tao/static/media/icons.aa241e4d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.935a40c0.js",
-    "static/js/2.81866d8b.chunk.js",
+    "static/js/2.53bf301a.chunk.js",
     "static/css/main.780f5383.chunk.css",
     "static/js/main.b80901f9.chunk.js"
   ]
