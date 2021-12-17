@@ -1,1 +1,63 @@
-[{"browser":"Chrome","os":"","versions":["91","92"],"device":"desktop"},{"browser":"Edge","os":"","versions":["91","92"],"device":"desktop"},{"browser":"Firefox","os":"","versions":["90","91"],"device":"desktop"},{"browser":"Internet Explorer","os":"","versions":["11"],"device":"desktop"},{"browser":"Safari","os":"","versions":["14","14.1"],"device":"desktop"},{"browser":"Chrome","os":"Android","versions":["92"],"device":"mobile"},{"browser":"Firefox","os":"Android","versions":["90"],"device":"mobile"},{"browser":"Safari","os":"iOS","versions":["14.0-14.4","14.5-14.7"],"device":"mobile"}]
+[
+  {
+    "browser": "Chrome",
+    "os": "",
+    "versions": [
+      "91",
+      "92"
+    ],
+    "device": "desktop"
+  },
+  {
+    "browser": "Edge",
+    "os": "",
+    "versions": [
+      "91",
+      "92"
+    ],
+    "device": "desktop"
+  },
+  {
+    "browser": "Firefox",
+    "os": "",
+    "versions": [
+      "90",
+      "91"
+    ],
+    "device": "desktop"
+  },
+  {
+    "browser": "Safari",
+    "os": "",
+    "versions": [
+      "14",
+      "14.1"
+    ],
+    "device": "desktop"
+  },
+  {
+    "browser": "Chrome",
+    "os": "Android",
+    "versions": [
+      "92"
+    ],
+    "device": "mobile"
+  },
+  {
+    "browser": "Firefox",
+    "os": "Android",
+    "versions": [
+      "90"
+    ],
+    "device": "mobile"
+  },
+  {
+    "browser": "Safari",
+    "os": "iOS",
+    "versions": [
+      "14.0-14.4",
+      "14.5-14.7"
+    ],
+    "device": "mobile"
+  }
+]
