@@ -61,6 +61,8 @@ The app will be available on http://localhost:3000:
 
 There is a 2-step process to make the latest browsers available in the API:
 
+> An update PR will also be opened by an action once per month.
+
 #### 1. Update browserslist db
 
 The following script installs the latest version of `caniuse-lite` in the package-lock.json. Without it, the API can receive outdated browsers. The resulting updated file should be committed.
