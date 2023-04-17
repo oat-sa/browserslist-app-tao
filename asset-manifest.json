@@ -1,23 +1,16 @@
 {
   "files": {
-    "main.css": "/browserslist-app-tao/static/css/main.780f5383.chunk.css",
-    "main.js": "/browserslist-app-tao/static/js/main.931cdd31.chunk.js",
-    "main.js.map": "/browserslist-app-tao/static/js/main.931cdd31.chunk.js.map",
-    "runtime-main.js": "/browserslist-app-tao/static/js/runtime-main.d2c5a9ba.js",
-    "runtime-main.js.map": "/browserslist-app-tao/static/js/runtime-main.d2c5a9ba.js.map",
-    "static/js/2.6f41e53c.chunk.js": "/browserslist-app-tao/static/js/2.6f41e53c.chunk.js",
-    "static/js/2.6f41e53c.chunk.js.map": "/browserslist-app-tao/static/js/2.6f41e53c.chunk.js.map",
-    "static/js/3.4a721d9f.chunk.js": "/browserslist-app-tao/static/js/3.4a721d9f.chunk.js",
-    "static/js/3.4a721d9f.chunk.js.map": "/browserslist-app-tao/static/js/3.4a721d9f.chunk.js.map",
+    "main.css": "/browserslist-app-tao/static/css/main.09e83a90.css",
+    "main.js": "/browserslist-app-tao/static/js/main.64e43721.js",
+    "static/js/496.05dc6d84.chunk.js": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js",
+    "static/media/icons.png": "/browserslist-app-tao/static/media/icons.aa241e4d352637c2fa9e.png",
     "index.html": "/browserslist-app-tao/index.html",
-    "static/css/main.780f5383.chunk.css.map": "/browserslist-app-tao/static/css/main.780f5383.chunk.css.map",
-    "static/js/2.6f41e53c.chunk.js.LICENSE.txt": "/browserslist-app-tao/static/js/2.6f41e53c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/browserslist-app-tao/static/media/icons.aa241e4d.png"
+    "main.09e83a90.css.map": "/browserslist-app-tao/static/css/main.09e83a90.css.map",
+    "main.64e43721.js.map": "/browserslist-app-tao/static/js/main.64e43721.js.map",
+    "496.05dc6d84.chunk.js.map": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d2c5a9ba.js",
-    "static/js/2.6f41e53c.chunk.js",
-    "static/css/main.780f5383.chunk.css",
-    "static/js/main.931cdd31.chunk.js"
+    "static/css/main.09e83a90.css",
+    "static/js/main.64e43721.js"
   ]
 }
