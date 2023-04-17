@@ -1,5 +1,5 @@
 import './App.css';
-import getBrowserListing from './data-provider/browsers';
+import getBrowserListing from './data-provider/browsers.js';
 
 function App() {
 
