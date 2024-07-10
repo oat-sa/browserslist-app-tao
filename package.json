@@ -5,13 +5,14 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "npm run build-api & react-scripts build",
+        "start": "REACT_APP_BUILD_DATE=$(date -I) react-scripts start",
+        "build": "npm run build-api & npm run build-app",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "build-api": "node ./src/api-builder/api.js",
+        "build-app": "REACT_APP_BUILD_DATE=$(date -I) react-scripts build",
         "update-db": "npx browserslist@latest --update-db"
     },
     "eslintConfig": {
