@@ -1,18 +1,23 @@
 {
     "homepage": "http://oat-sa.github.io/browserslist-app-tao",
     "name": "browserslist-app-tao",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "private": true,
     "type": "module",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "npm run build-api & react-scripts build",
+        "start": "REACT_APP_BUILD_DATE=$(date -I) react-scripts start",
+        "build": "npm run build-api & npm run build-app",
         "test": "react-scripts test",
         "eject": "react-scripts eject",
         "predeploy": "npm run build",
         "deploy": "gh-pages -d build",
         "build-api": "node ./src/api-builder/api.js",
+        "build-app": "REACT_APP_BUILD_DATE=$(date -I) react-scripts build",
         "update-db": "npx browserslist@latest --update-db"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oat-sa/browserslist-app-tao.git"
     },
     "eslintConfig": {
         "extends": [
@@ -21,7 +26,7 @@
         ]
     },
     "dependencies": {
-        "browserslist": "^4.21.5",
+        "browserslist": "^4.23.2",
         "react": "^18.2.0",
         "react-dom": "^18.2.0",
         "react-scripts": "^5.0.1",
@@ -36,5 +41,8 @@
     },
     "browserslist": [
         "extends @oat-sa/browserslist-config-tao"
-    ]
+    ],
+    "bugs": {
+        "url": "https://github.com/oat-sa/browserslist-app-tao/issues"
+    }
 }
