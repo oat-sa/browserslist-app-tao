@@ -15,6 +15,10 @@
         "build-app": "REACT_APP_BUILD_DATE=$(date -I) react-scripts build",
         "update-db": "npx browserslist@latest --update-db"
     },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oat-sa/browserslist-app-tao.git"
+    },
     "eslintConfig": {
         "extends": [
             "react-app",
