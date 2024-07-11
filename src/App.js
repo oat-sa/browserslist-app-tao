@@ -51,6 +51,7 @@ function App() {
         <div className="app">
             <h1 className="title">Browsers supported by TAO</h1>
             <ul className="browsers">{render()}</ul>
+            <p className="updated-msg">Updated monthly, last update: {process.env.REACT_APP_BUILD_DATE || 'unknown'}</p>
         </div>
     );
 }
