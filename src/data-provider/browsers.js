@@ -56,7 +56,7 @@ function getBrowserListing () {
     }, {});
     for(let device in listing){
         for(let values of Object.values(listing[device])) {
-            // Commented out while we'll be supporting from 17.5 to 17.x:
+            // Commented out while we'll be supporting from 17.4 to 17.x:
             //
             // Safari returns every minor version; discard them and just keep major
             // if (values.browser === 'Safari') {
