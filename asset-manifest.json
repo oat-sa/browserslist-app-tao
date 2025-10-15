@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/browserslist-app-tao/static/css/main.aec3264a.css",
-    "main.js": "/browserslist-app-tao/static/js/main.e9325231.js",
+    "main.js": "/browserslist-app-tao/static/js/main.ba6edac1.js",
     "static/js/496.05dc6d84.chunk.js": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js",
     "static/media/icons.png": "/browserslist-app-tao/static/media/icons.aa241e4d352637c2fa9e.png",
     "index.html": "/browserslist-app-tao/index.html",
     "main.aec3264a.css.map": "/browserslist-app-tao/static/css/main.aec3264a.css.map",
-    "main.e9325231.js.map": "/browserslist-app-tao/static/js/main.e9325231.js.map",
+    "main.ba6edac1.js.map": "/browserslist-app-tao/static/js/main.ba6edac1.js.map",
     "496.05dc6d84.chunk.js.map": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aec3264a.css",
-    "static/js/main.e9325231.js"
+    "static/js/main.ba6edac1.js"
   ]
 }
