@@ -39,6 +39,11 @@
         "@testing-library/user-event": "^14.4.3",
         "gh-pages": "^5.0.0"
     },
+    "overrides": {
+        "form-data": "^3.0.4",
+        "shell-quote": "^1.8.4",
+        "websocket-driver": "^0.7.5"
+    },
     "browserslist": [
         "extends @oat-sa/browserslist-config-tao"
     ],
