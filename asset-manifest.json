@@ -1,16 +1,17 @@
 {
   "files": {
     "main.css": "/browserslist-app-tao/static/css/main.aec3264a.css",
-    "main.js": "/browserslist-app-tao/static/js/main.ff1ff826.js",
-    "static/js/496.05dc6d84.chunk.js": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js",
+    "main.js": "/browserslist-app-tao/static/js/main.0270b76a.js",
+    "static/js/488.c4491fd2.chunk.js": "/browserslist-app-tao/static/js/488.c4491fd2.chunk.js",
+    "static/media/index.cjs": "/browserslist-app-tao/static/media/index.b2dd4b0f208fe132d6af.cjs",
     "static/media/icons.png": "/browserslist-app-tao/static/media/icons.aa241e4d352637c2fa9e.png",
     "index.html": "/browserslist-app-tao/index.html",
     "main.aec3264a.css.map": "/browserslist-app-tao/static/css/main.aec3264a.css.map",
-    "main.ff1ff826.js.map": "/browserslist-app-tao/static/js/main.ff1ff826.js.map",
-    "496.05dc6d84.chunk.js.map": "/browserslist-app-tao/static/js/496.05dc6d84.chunk.js.map"
+    "main.0270b76a.js.map": "/browserslist-app-tao/static/js/main.0270b76a.js.map",
+    "488.c4491fd2.chunk.js.map": "/browserslist-app-tao/static/js/488.c4491fd2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aec3264a.css",
-    "static/js/main.ff1ff826.js"
+    "static/js/main.0270b76a.js"
   ]
 }
