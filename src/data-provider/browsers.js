@@ -35,6 +35,33 @@ const format = browser => {
 }
 
 /**
+ * Lockdown / secure exam browsers for TAO (INV-1156 lockdown-browser POC).
+ *
+ * Mainstream entries above come from Browserslist + browserslist-config-tao.
+ * KioskED and similar clients are not in Can I Use, so they are listed here and
+ * merged into public/api.json on `npm run build-api`.
+ *
+ * TAO client diagnostic (extension-tao-clientdiag) loads api.json via browserslistUrl
+ * and matches the detected browser name + version (same rules as Chrome rows).
+ * tao-core detects KioskED from User-Agent (e.g. `kiosked/1.8.2`) and exposes
+ * browser name `kiosked` — must match LockDownBrowserConfiguration::PROVIDER_KIOSKED.
+ *
+ * `versions`: minimum supported release; UA version must be >= each listed value
+ * (TAO uses version_compare / numeric compare). Bump when product raises the floor.
+ *
+ * @type {Array<{browser: string, os: string, device: string, versions: string[]}>}
+ */
+const lockDownBrowserListing = [
+    {
+        browser: 'kiosked',
+        os: '',
+        device: 'desktop',
+        // INVALSI / POC minimum KioskED version (UA token kiosked/x.y.z)
+        versions: ['1.8.2']
+    }
+];
+
+/**
  * Convert browser data to an array
  * order: desktop -> mobile, then alphabetically, then version
  */
@@ -72,7 +99,9 @@ function getBrowserListing () {
             {}
           );
     }
-    return Object.values(listing['desktop']).concat(Object.values(listing['mobile']));
+    return Object.values(listing['desktop'])
+        .concat(Object.values(listing['mobile']))
+        .concat(lockDownBrowserListing);
 };
 
 export default getBrowserListing;
