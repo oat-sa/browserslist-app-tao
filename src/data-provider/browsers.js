@@ -1,5 +1,6 @@
 import browserslist from 'browserslist';
 import oatBrowserListConfig from '@oat-sa/browserslist-config-tao';
+import customBrowserList from '@oat-sa/browserslist-config-tao/custom-browsers.js';
 
 /**
  * Vocabulary to expand short codes for browsers and OSs to human readable names
@@ -72,7 +73,9 @@ function getBrowserListing () {
             {}
           );
     }
-    return Object.values(listing['desktop']).concat(Object.values(listing['mobile']));
+    return Object.values(listing['desktop'])
+        .concat(Object.values(listing['mobile']))
+        .concat(customBrowserList);
 };
 
 export default getBrowserListing;
