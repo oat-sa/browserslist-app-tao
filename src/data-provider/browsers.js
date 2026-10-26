@@ -1,5 +1,6 @@
 import browserslist from 'browserslist';
 import oatBrowserListConfig from '@oat-sa/browserslist-config-tao';
+import customBrowserList from '@oat-sa/browserslist-config-tao/custom-browsers.js';
 
 /**
  * Vocabulary to expand short codes for browsers and OSs to human readable names
@@ -33,21 +34,6 @@ const format = browser => {
         device: device
     }
 }
-
-/**
- * feat/INV-1156/lockdown-browser-poc
- * Lockdown clients (not expressible via Browserslist). Names must match tao-core
- * LockDownBrowserConfiguration::PROVIDER_* (e.g. kiosked).
- * @type {Array<{browser: string, os: string, device: string, versions: string[]}>}
- */
-const lockDownBrowserListing = [
-    {
-        browser: 'kiosked',
-        os: '',
-        device: 'desktop',
-        versions: ['1.8.2']
-    }
-];
 
 /**
  * Convert browser data to an array
@@ -89,7 +75,7 @@ function getBrowserListing () {
     }
     return Object.values(listing['desktop'])
         .concat(Object.values(listing['mobile']))
-        .concat(lockDownBrowserListing);
+        .concat(customBrowserList);
 };
 
 export default getBrowserListing;
