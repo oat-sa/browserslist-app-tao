@@ -15,6 +15,7 @@ test('renders headings', () => {
         'Safari',
         'Chrome/Android',
         'Firefox/Android',
-        'Safari/iOS'
+        'Safari/iOS',
+        'kiosked'
     ]);
 });
